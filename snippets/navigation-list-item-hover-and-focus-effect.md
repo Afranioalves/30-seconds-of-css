@@ -33,7 +33,7 @@ Creates a custom hover and focus effect for navigation items, using CSS transfor
   float: left;
 }
 
-.hover-nav li a {
+.hover-nav ul li a {
   position: relative;
   display: block;
   color: #fff;
