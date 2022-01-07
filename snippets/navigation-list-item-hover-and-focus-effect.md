@@ -22,26 +22,31 @@ Creates a custom hover and focus effect for navigation items, using CSS transfor
 ```
 
 ```css
-.hover-nav ul {
+ .hover-nav ul {
   list-style: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
+  display: flex;
 }
 
-.hover-nav li {
-  float: left;
+.hover-nav ul li {
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+  
 }
 
 .hover-nav ul li a {
   position: relative;
-  display: block;
   color: #fff;
   text-align: center;
-  padding: 8px 12px;
+  padding: 12px;
   text-decoration: none;
   z-index: 0;
 }
+
 
 li a:before {
   position: absolute;
